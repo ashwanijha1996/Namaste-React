@@ -1,0 +1,32 @@
+01 - Igniting Our App
+
+=> Parcel,Webpack,Vite - Bundlers
+=>Bundlers => Bundlers are needed in our App to create and manage optimized bundles of all our project files.
+=> npm i -D parcel - here '-D' is for installing a package as dev dependency. Dev dependency packages are used for production only.
+=> ^ will install the minor updates automatically. ~ will install all updates automatically.
+=> package.json contains information about the dependencies installed but package-lock.json keeps track of exact version of that package which 
+is installed at that time.It contains few more informations like integrity also.
+=> sha512 integrity key is basically a hash key which is used to verify if the local and prod versions of any package is same or not.
+=> we need to remove main: "App.js" from our package.json so it will not conflict with npx parcel build index.html command.
+
+# Parcel - Features - 
+1. Dev build
+2. Local server
+3. HMR - Hot Module Replacement
+4. File watching algo - written in C++
+5. Caching - For faster builds
+6. Image optimisation
+7. Bundling
+8. Minification
+9. Compress
+10. Constant Hashing
+11. Code Splitting
+12. Differential Bundling - for older browsers
+13. Diagnostics
+14. Error handling
+15. HTTPs
+16. Tree shaking - remove unused codes
+17. Different dev and prod builds
+18. and many many more... Read Parcel's official docs.
+
+========================================================================================================================
